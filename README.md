@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Move group badges to be inline with usernames.
 
+![](https://github.com/davwheat/flarum-ext-inline-group-badges/blob/main/docs/example.png?raw=true)
+
 ### Installation
 
 Install with composer:
