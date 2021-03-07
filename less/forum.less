@@ -1,0 +1,39 @@
+.PostUser {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+  &-badges {
+    &.badges {
+      float: none;
+      width: auto;
+      margin: 0;
+      margin-right: 8px;
+    }
+
+    .Badge {
+      margin-left: 0;
+      padding-top: 0px !important;
+    }
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
+
+// Make group color the color of the icon, where supported
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+  .PostUser-badges.badges .Badge {
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    // Remove shadow
+    box-shadow: none;
+
+    .Badge-icon {
+      font-size: 14px;
+    }
+  }
+}

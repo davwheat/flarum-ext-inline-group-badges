@@ -1,0 +1,39 @@
+{
+  "name": "davwheat/inline-group-badges",
+  "description": "Move group badges to be inline with usernames.",
+  "keywords": [
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^0.1.0-beta.15"
+  },
+  "authors": [
+    {
+      "name": "David Wheatley",
+      "email": "hi@davwheat.dev",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Flarumite\\InlineGroupBadges\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Flarumite Inline Group Badges",
+      "category": "theme",
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#51c5dd"
+      }
+    }
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,ts,jsx,tsx,json,less,md,php,yml}\"",
+    "format:check": "prettier --check \"**/*.{js,ts,jsx,tsx,json,less,md,php,yml}\"",
+    "format:staged": "cross-env git-format-staged --formatter \"prettier --stdin-filepath '{}'\" \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" \"*.md\" \"*.less\" \"*.json\" \"*.php\" \"*.svg\""
+  }
+}
