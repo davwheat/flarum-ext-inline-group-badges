@@ -18,12 +18,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Flarumite\\InlineGroupBadges\\": "src/"
+      "Davwheat\\InlineGroupBadges\\": "src/"
     }
   },
   "extra": {
     "flarum-extension": {
-      "title": "Flarumite Inline Group Badges",
+      "title": "davwheat Inline Group Badges",
       "category": "theme",
       "icon": {
         "image": "icon.svg",
