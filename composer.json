@@ -2,7 +2,8 @@
   "name": "davwheat/inline-group-badges",
   "description": "Move group badges to be inline with usernames.",
   "keywords": [
-    "flarum"
+    "flarum",
+    "groups"
   ],
   "type": "flarum-extension",
   "license": "MIT",
@@ -16,6 +17,11 @@
       "role": "Developer"
     }
   ],
+  "support": {
+    "issues": "https://github.com/davwheat/flarum-ext-inline-group-badges/issues",
+    "source": "https://github.com/davwheat/flarum-ext-inline-group-badges",
+    "forum": "https://discuss.flarum.org/26376"
+  },
   "autoload": {
     "psr-4": {
       "Davwheat\\InlineGroupBadges\\": "src/"
