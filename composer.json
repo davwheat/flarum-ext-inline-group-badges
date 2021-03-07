@@ -40,6 +40,6 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,ts,jsx,tsx,json,less,md,php,yml}\"",
     "format:check": "prettier --check \"**/*.{js,ts,jsx,tsx,json,less,md,php,yml}\"",
-    "format:staged": "cross-env git-format-staged --formatter \"prettier --stdin-filepath '{}'\" \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" \"*.md\" \"*.less\" \"*.json\" \"*.php\" \"*.svg\""
+    "format:staged": "git-format-staged --formatter \"prettier --stdin-filepath '{}'\" \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" \"*.md\" \"*.less\" \"*.json\" \"*.php\" \"*.svg\""
   }
 }
