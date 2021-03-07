@@ -5,6 +5,7 @@
 
   &-badges {
     &.badges {
+      position: static;
       float: none;
       width: auto;
       margin: 0;
@@ -19,6 +20,15 @@
 
   h3 {
     margin: 0;
+  }
+
+  @media (max-width: @screen-tablet-max) {
+    flex-direction: row;
+
+    &-badges.badges {
+      margin-right: 0;
+      margin-left: 6px;
+    }
   }
 }
 
