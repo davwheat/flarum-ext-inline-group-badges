@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Move group badges to be inline with usernames.
 
+Implements [a suggestion](https://discuss.flarum.org/d/2595-suggestion-inline-avatar-badges) from @MirHamid.
+
 ![](https://github.com/davwheat/flarum-ext-inline-group-badges/blob/main/docs/example.png?raw=true)
 
 ### Installation
@@ -25,4 +27,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/davwheat/inline-group-badges)
 - [GitHub](https://github.com/davwheat/inline-group-badges)
-- [Discuss](https://discuss.flarum.org/d/1)
+- [Discuss](https://discuss.flarum.org/d/26376)
